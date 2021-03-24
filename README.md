@@ -1,4 +1,4 @@
-Kruskal Implementation with CUDA Programming
+# Kruskal Implementation with CUDA Programming
 
 Program MST paralel yang dibuat menggunakan algoritma Kruskal.
 Paralelisasi dilakukan pada operasi sorting, dan algoritma sorting yang digunakan adalah merge sort.
@@ -16,7 +16,7 @@ Sebagai benchmark, waktu eksekusi algoritma MST serial pada kasus uji yang digun
 Hasil eksekusi:
 
 | Jumlah Node  | Merge Sort 1 (ms) | Merge Sort 2 (ms) | Total Runtime (ms) |
-| ------------- | ------------- |
+| ------------- | ------------- | ---- | ---- |
 | 1  | 19064.10 | 5.69 | 19204 |
 | 2  | 11097.40 | 3.34 | 11237 |
 | 4  | 6593.01 | 2.15 | 6732 |
